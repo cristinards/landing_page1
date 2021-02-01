@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: #538bf0;
+    padding: 2rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #2f2e41;
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    font-weight: 500;
+
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #2f2e41;
+}
+
+#navbarSupportedContent>button{
+    background:#2f2e41;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 20px;
+    border-color: none;
+
+}
+
+
+.conteudo{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.conteudo video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.conteudo .destaque{
+    position: relative;
+}
+
+.conteudo .destaque p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+
+}
+
+.conteudo .destaque a{
+    background:#2f2e41;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+    border-color: none;
+    text-decoration: none;
+}
+
+.conteudo .destaque a:hover{
+    background: #538bf0;
+}
+
+
+
+.sobre .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sobre .text h6{
+    color: #538bf0;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sobre .text h2{
+    color: #2f2e41;
+    font-weight: 700;
+    font-size: 2.2rem;
+  
+}
+
+.sobre .text p{
+    color: #2f2e41;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  
+}
+
+.sobre .text a{
+    background:#2f2e41;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+    border-color: none;
+    text-decoration: none;
+}
+
+.descubra{
+    background: #2f2e41;
+}
+
+.descubra .text h6{
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.descubra .text h2{
+    color: #538bf0;
+    font-weight: 700;
+    font-size: 2.2rem;
+  
+}
+
+.descubra .text p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  
+}
+
+.descubra .text a{
+    background:#538bf0;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+    border-color: none;
+    text-decoration: none;
+}
+
